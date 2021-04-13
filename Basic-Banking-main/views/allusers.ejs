@@ -1,0 +1,49 @@
+
+
+<nav class="navbar navbar-expand-lg navbar-light ">
+  <div class="container">
+
+    <a class="navbar-brand" href="/">
+      <img src="citibank.png" alt="Logo" style="width: 200px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#footer">Contact</a>
+        </li>
+        <li class = "nav-item">
+          <a class="nav-link" href="/allusers"> View Users</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="row" style="margin-top: 200px;">
+  <% users.forEach((user) => { %>
+    
+      <div class="col-sm-6 mb-5">
+    <div class="card text-white ">
+      <div class="card-image" style="text-align: center;width:100px;padding-top:20px;height:100px;background:#003b6f ;color:white;font-size: 2rem;font-weight: bolder;border-radius: 50%;position:relative;top: -45px;left:50%;">
+        <%=user.firstName.substring(0,1).toUpperCase()%> 
+      </div>
+      <div class="card-body card-styles">
+        <div>
+          <a href="/user/<%=user._id%>" class="card-name" title="view profile"><%=user.firstName %> <%=user.lastName %></a>
+        </div>
+        <div><%=user.email%></div>
+        <div>Balance : <%=user.currentBalance%></div>
+      </div>
+    </div>
+  </div>
+  <% }); %>
+</div>
