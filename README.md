@@ -47,6 +47,3 @@ For more information, refer to the following resources:
 ## Deployment
 For details on deploying the application, refer to the [deployment section](https://create-react-app.dev/docs/deployment) of the Create React App documentation.
 
-## License
-Basic Banking Main is open-source and licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
-
