@@ -1,71 +1,52 @@
-# Basic-Banking-main
-# Getting Started with Create React App
+# Basic Banking Main
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based web application designed to simplify banking transactions in a modern and user-friendly interface.
+
+[![Demo Video](https://img.shields.io/badge/Watch-Demo-red.svg)](https://youtu.be/quiqH-XLPr0)
+
+## Table of Contents
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+- [Available Scripts](#available-scripts)
+- [Video Demonstration](#video-demonstration)
+- [Learn More](#learn-more)
+- [Deployment](#deployment)
+- [License](#license)
+
+## Overview
+
+Basic Banking Main is a web-based application created to handle banking transactions seamlessly. It offers a clean, modern UI along with robust functionality, ensuring users have a superior banking experience.
+
+## Getting Started
+
+This project was bootstrapped with [Create React App](https://create-react-app.dev/docs/getting-started).
+
+After cloning the repository, navigate to the project directory and run the following commands to start the application:
+
+The app will start in development mode. Open [http://localhost:5000](http://localhost:5000) to view it in your browser. The page will reload with edits, and any lint errors will be shown in the console.
 
 ## Available Scripts
-
 In the project directory, you can run:
 
-### `npm start`
+- `npm start`: Runs the app in development mode.
+- `npm test`: Launches the test runner in interactive watch mode.
+- `npm run build`: Builds the app for production to the `build` folder.
+- `npm run eject`: Removes the single build dependency from the project.
 
-Runs the app in the development mode.\
-Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
+**Note:** `npm run eject` is a one-way operation. Once you eject, you can't go back!
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Video Demonstration
+Watch a live demonstration of Basic Banking Main [here](https://youtu.be/quiqH-XLPr0).
 
 ## Learn More
+For more information, refer to the following resources:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Create React App documentation](https://create-react-app.dev/docs/getting-started)
+- [React documentation](https://reactjs.org/docs/getting-started.html)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Deployment
+For details on deploying the application, refer to the [deployment section](https://create-react-app.dev/docs/deployment) of the Create React App documentation.
 
-### Code Splitting
+## License
+Basic Banking Main is open-source and licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
